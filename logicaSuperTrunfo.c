@@ -86,6 +86,32 @@ int main() {
     // 
     // (Repita para cada propriedade)
 
+    //Exibição da primeira carta!
+    printf("Carta 1:\n");
+    printf("Estado: %c\n", estado);
+    printf("Código: %s\n", codigo);
+    printf("Nome da Cidade: %s\n", nome);
+    printf("População: %lu\n", populacao);
+    printf("Área: %.2fkm²\n", area);
+    printf("PIB: %.2f bilhões de reais\n", pib);
+    printf("Pontos Turísticos: %d\n", pontost);
+    //exibição de novas informações - Nível Aventureiro
+    printf("Densidade Populacional: %f hab/km²\n", denpo); 
+    printf("PIB per Capita: %.2f reais\n\n", pibper);
+
+    //Exibição da segunda carta!
+    printf("Carta 2:\n");
+    printf("Estado: %c\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", nome2);
+    printf("População: %lu\n", populacao2);
+    printf("Área: %.2fkm²\n", area2);
+    printf("PIB: %.2f bilhões de reais\n", pib2);
+    printf("Pontos Turísticos: %d\n", pontost2);
+    //exibição de novas informações - Nível Aventureiro
+    printf("Densidade Populacional: %f hab/km²\n", denpo2); 
+    printf("PIB per Capita: %.2f reais\n\n", pibper2);
+
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
